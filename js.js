@@ -3,7 +3,6 @@ import {phoneLink,phoneText} from './phoneHelpers.js';
 import {menuView} from './views.js';
 
 const view = document.getElementById('view');
-const address = document.getElementById('address');
 const drawer = document.getElementById('drawer');
 
 function heading (type) {
@@ -29,10 +28,6 @@ function buildMenu (menu) {
     options.append(item);
   });
 }
-
-(window.matchMedia("(max-width:550px)").matches) ?
-  address.append(phoneLink("1-614-556-6202")) :
-  address.append(phoneText("1-614-556-6202"));
 
 document.getElementById('menu-button').addEventListener('click',function () {
   (drawer.className === 'shown') ?

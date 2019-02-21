@@ -50,6 +50,11 @@ export const sandwiches = {
     text:"Gyro Sandwich",
     price:"$6.99",
     img:"assets/gyro_sandwich.jpg"
+  },
+  souvlaki:{
+    text:"Souvlaki Sandwich",
+    price:"$7.99",
+    img:"assets/souvlaki_sandwich.jpg"
   }
 };
 
@@ -68,5 +73,10 @@ export const platters = {
     text: "Falafel Platter",
     price:"$8.50",
     img:"assets/falafel_platter.jpg"
+  },
+  chicken:{
+    text:"Chicken Platter",
+    price:"$8.99",
+    img:"assets/chicken_platter.jpg"
   }
 };

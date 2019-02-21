@@ -14,7 +14,7 @@ main {
 }
 
 nav {
-    height: 15%;
+    max-height: 15%;
     width: 100%;
     font-size: 2em;
     display: flex;
@@ -61,7 +61,7 @@ nav {
 
 #view {
     width: 100%;
-    min-height: 80vh;
+    min-height: 85vh;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
@@ -86,17 +86,18 @@ nav {
 }
 
 .menu-head {
+    margin-top: 10px;
     text-align: center;
     width: 100%;
-    font-size: 4em;
+    font-size: 3em;
 }
 .menu-frame {
-    height: 80%;
+    min-height: 80%;
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .menu-item {
@@ -132,7 +133,8 @@ nav {
 }
 
 .food-pic {
-    height: 90%;
+    min-height: 90%;
+    max-height: 90%;
     min-width: 100px;
     background-position: center;
     background-size: cover;
@@ -144,11 +146,18 @@ nav {
     margin: 5px;
 }
 
+i {
+    color: white;
+    margin: 10px;
+    font-size: 1.5em;
+}
+
 #menu {
     width: 100%;
     list-style-type: none;
     color: black;
     margin: 0px;
+    background-color: #4b4b47;
     box-sizing: border-box;
     padding: 3px;
 }
@@ -158,6 +167,7 @@ nav {
     padding: 5px 30px;
     margin: 10px 5px;
     border: 2px solid white;
+    background-color: #6a6b65;
     border-radius: 3px;
     box-sizing: border-box;
     font-size: 2em;
@@ -205,12 +215,12 @@ nav {
     }
 
     .menu-item {
-        width: 70%;
+        width: 80%;
         font-size: 1em;
     }
 
     .menu-item-pic {
-        width: 70%;
+        width: 80%;
         font-size: 1em;
     }
 
@@ -221,5 +231,18 @@ nav {
     .text-bar {
         font-size: 1em;
     }
+    
+    #logo {
+        width: 55%;
+    }
 
+    #menu-button {
+        width: 15%;
+        font-size: 1em;
+    }
+
+    i {
+        font-size: 1em;
+        margin: 5px;
+    }
 }
