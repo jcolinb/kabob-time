@@ -1,15 +1,38 @@
 import * as menu from './menu.js';
-import {phoneLink,phoneText} from './phoneHelpers.js';
 import {menuView} from './views.js';
 
 const view = document.getElementById('view');
 const drawer = document.getElementById('drawer');
+
+function text (str) {
+  const box = document.createElement('p');
+  box.textContent = str;
+  return box;
+}
 
 function heading (type) {
   const title = document.createElement('div');
   title.className = 'menu-head';
   title.textContent = type;
   return title;
+}
+
+function description (type) {
+  const box = document.createElement('div');
+  box.className = 'description';
+
+    if (type == 'appetizers') {
+      box.append(text(''));
+      }
+    if (type == 'sandwiches') {
+      box.append(text('All sandwiches served with lettuce,tomato,onion,and house sauce'));
+      box.append(text('Add fries for $2'));
+    }
+    if (type == 'platters') {
+      box.append(text('All platters are served with rice and salad'));
+      box.append(text('Full rice or salad extra $2'));
+    }
+  return box;
 }
 
 function buildMenu (menu) {
@@ -23,6 +46,7 @@ function buildMenu (menu) {
       view.style.backgroundImage = "url('')";
       view.style.backgroundColor = 'grey';
       view.append(heading(type));
+      view.append(description(type));
       view.append(menuView(menu[type]));
       });
     options.append(item);
