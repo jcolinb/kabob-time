@@ -78,5 +78,10 @@ export const platters = {
     text:"Chicken Platter",
     price:"$8.99",
     img:"assets/chicken_platter.jpg"
+  },
+  salad:{
+    text:"Chicken Kabob Salad",
+    price:"$9.99",
+    img:"assets/salad.jpg"
   }
 };

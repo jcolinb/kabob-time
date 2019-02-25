@@ -60,6 +60,23 @@ nav {
     
 }
 
+#hours {
+    margin-left: 3%;
+    font-weight: bold;
+    width: 100%;
+    height: auto;
+    font-size: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#hours p {
+    border-radius: 5px;
+    padding: 2px;
+    background-color: #ef5519;
+}
+
 #view {
     width: 100%;
     min-height: 100%;
