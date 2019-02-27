@@ -25,12 +25,12 @@ function description (type) {
       box.append(text(''));
       }
     if (type == 'sandwiches') {
-      box.append(text('All sandwiches served with lettuce,tomato,onion,and house sauce'));
-      box.append(text('Add fries for $2'));
+      box.append(text('served with lettuce,tomato,onion,and house sauce'));
+      box.append(text('add fries for $2'));
     }
     if (type == 'platters') {
-      box.append(text('All platters are served with rice and salad'));
-      box.append(text('Full rice or salad extra $2'));
+      box.append(text('all platters are served with rice and salad'));
+      box.append(text('full rice or salad extra $2'));
     }
   return box;
 }
