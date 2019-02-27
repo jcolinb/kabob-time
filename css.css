@@ -251,11 +251,11 @@ i {
 
     #menu-button {
         width: 15%;
-        font-size: 1em;
+        font-size: 0.7em;
     }
 
     i {
-        font-size: 1em;
+        font-size: 0.6em;
         margin: 5px;
     }
 }
