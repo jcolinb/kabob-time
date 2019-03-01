@@ -251,7 +251,7 @@ i {
     }
     
     #logo {
-        width: 55%;
+        width: 95%;
     }
 
     #menu-button {
@@ -260,7 +260,7 @@ i {
     }
 
     i {
-        font-size: 0.6em;
+        font-size: 0.8em;
         margin: 5px;
     }
 }
