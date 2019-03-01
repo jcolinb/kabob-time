@@ -27,6 +27,7 @@ nav {
 }
 
 nav a {
+    text-decoration: none;
     height: 95%;
     max-width: 50%;
     display: flex;
@@ -255,6 +256,10 @@ i {
     
     #logo {
         width: 95%;
+    }
+
+    nav a {
+        max-width: 45%;
     }
 
     #menu-button {
