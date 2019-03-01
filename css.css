@@ -167,8 +167,6 @@ nav a {
 }
 
 i {
-    height: 95%;
-    width: 10%;
     color: white;
     margin: 10px;
     font-size: 1em;
@@ -268,7 +266,6 @@ i {
     }
 
     i {
-        font-size: 0.8em;
-        margin: 5px;
+        font-size: 0.7em;
     }
 }
