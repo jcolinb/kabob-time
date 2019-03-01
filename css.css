@@ -26,8 +26,12 @@ nav {
     border-bottom: 5px solid black;
 }
 
+nav a {
+    max-width: 50%;
+}
+
 #logo {
-    width: 50%;
+    width: 95%;
     height: 95%;
 
 }
