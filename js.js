@@ -21,7 +21,7 @@ function description (type) {
   const box = document.createElement('div');
   box.className = 'description';
 
-    if (type == 'appetizers') {
+    if (type == 'appetizers' || 'desserts') {
       box.append(text(''));
       }
     if (type == 'sandwiches') {

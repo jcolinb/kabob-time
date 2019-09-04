@@ -1,32 +1,36 @@
 export const appetizers = {
   dolmas:{
     text: "Grape Leaves",
-    price: "$5"
+    price: "$4.99"
   },
   tzatziki:{
     text: "Tzatziki Sauce",
-    price: "$4"
+    price: "$3.99"
   },
   hummus:{
-    text: "Hummus",
-    price: "$4"
+    text: "Hummus+Pita",
+    price: "$3.99"
   },
   salad:{
     text: "Kabob Time Salad",
-    price: "$5",
+    price: "$4.99",
   },
   fries:{
     text: "Cheese Fries",
-    price: "$4"
+    price: "$3.99"
   },
   falafel:{
     text: "Falafel (5pc)",
-    price: "$4"
+    price: "$3.99"
     
   },
+  wings:{
+    text:"Chicken Wings (5pc)",
+    price:"$6.49"
+  },
   tenders:{
-    text: "Chicken Tenders (4pc)",
-    price: "$4"
+    text: "Chicken Tenders (3pc)",
+    price: "$3.99"
   }
 };
 
@@ -61,12 +65,12 @@ export const sandwiches = {
 export const platters = {
   souvlaki:{
     text: "Souvlaki Platter",
-    price:"$8.99",
+    price:"$9.99",
     img:"assets/souvlaki_platter.jpg"
   },
   gyro:{
     text: "Gyro Platter",
-    price:"$8.50",
+    price:"$8.99",
     img:"assets/gyro_platter.jpg"
   },
   falafel:{
@@ -83,5 +87,13 @@ export const platters = {
     text:"Chicken Kabob Salad",
     price:"$9.99",
     img:"assets/salad.jpg"
+  }
+};
+
+export const desserts = {
+  baklava:{
+    text:"Baklava",
+    price:"$2.50",
+    img:"assets/baklava.jpg"
   }
 };
