@@ -3,17 +3,9 @@ export const appetizers = {
     text: "Grape Leaves",
     price: "$4.99"
   },
-  tzatziki:{
-    text: "Tzatziki Sauce",
-    price: "$3.99"
-  },
   hummus:{
     text: "Hummus+Pita",
     price: "$3.99"
-  },
-  salad:{
-    text: "Kabob Time Salad",
-    price: "$4.99",
   },
   fries:{
     text: "Cheese Fries",
@@ -70,7 +62,7 @@ export const platters = {
   },
   gyro:{
     text: "Gyro Platter",
-    price:"$8.99",
+    price:"$8.50",
     img:"assets/gyro_platter.jpg"
   },
   falafel:{
@@ -82,6 +74,10 @@ export const platters = {
     text:"Chicken Platter",
     price:"$8.99",
     img:"assets/chicken_platter.jpg"
+  },
+  mix:{
+    text:"Mix Gyro (chicken & lamb)",
+    price:"$9.50",
   },
   salad:{
     text:"Chicken Kabob Salad",
@@ -95,5 +91,9 @@ export const desserts = {
     text:"Baklava",
     price:"$2.50",
     img:"assets/baklava.jpg"
+  },
+  tiramisu:{
+    text:"Tiramisu",
+    price:"$3.00"
   }
 };
